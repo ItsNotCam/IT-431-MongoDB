@@ -83,7 +83,10 @@ export async function PUT(
 			);
 		}
 
-    return NextResponse.json(requestCourse, { status: 200 });
+    return NextResponse.json({
+			...existingCourse,
+			...updatedData,
+		}, { status: 200 });
   } catch (error) {
     console.error("Error updating course:", error);
     return NextResponse.json(
