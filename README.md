@@ -1,3 +1,6 @@
+# Sorry it's a different repo, somehow I broke the original one and had a lot of problems trying to fix it
+
+
 # Courses Management Application
 
 This is a demonstration application built with [Next.js](https://nextjs.org) that showcases CRUD (Create, Read, Update, Delete) operations against a JSON file as a data store. It provides a simple but functional course management system with a modern UI.
